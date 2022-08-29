@@ -1,0 +1,27 @@
+.routing-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+
+  &__item {
+
+    width: 85px;
+    height: 24px;
+
+    /* desktop/text small */
+
+    font-family: 'Inter', "Roboto Thin", 'serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* gray/gray-60 */
+
+    color: #696C71;
+
+
+  }
+}

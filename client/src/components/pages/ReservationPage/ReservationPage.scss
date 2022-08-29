@@ -1,0 +1,157 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-wrap {
+  width: 958px;
+  //height: 0px;
+  display: flex;
+  border: 1px solid #EEEFF2;
+
+  &__item-details {
+    padding: 24px;
+    width: 644px;
+    border: 1px solid #EEEFF2;
+  }
+
+  &__book-details {
+    padding: 24px;
+    width: 314px;
+    border: 1px solid #EEEFF2;
+  }
+
+  .item-credentials {
+    &__header {
+      font-family: 'Inter', 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      color: #222222;
+    }
+
+    &__slider {
+      gap: 10px;
+      margin: 24px 0;
+
+      width: 596px;
+      height: 320px;
+
+      border-radius: 12px;
+    }
+  }
+
+  .about-item {
+
+    &__navigation {
+      height: 34px;
+      border-bottom: 2px solid #EEEFF2;
+
+      list-style: none;
+      padding: 0;
+      display: flex;
+      cursor: pointer;
+
+      &__nav-item {
+        margin-right: 32px;
+        color: #696C71;
+
+        &:hover {
+          color: #0E0E0F;
+          border-bottom: 2px solid #0E0E0F;
+        }
+      }
+    }
+
+    &__info {
+      padding: 32px 0;
+      border-bottom: 1px solid #EEEFF2;
+    }
+  }
+
+  .similar, .popular {
+    margin-top: 40px;
+
+    &__header {
+      margin-bottom: 16px;
+    }
+
+    &__item-list {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+
+    }
+
+    &__item {
+      width: 188px;
+      height: 291px;
+      background: #FFFFFF;
+      box-shadow: 0px 1px 5px rgba(0, 20, 67, 0.14);
+      border-radius: 16px;
+
+      &__img {
+        height: 144px;
+      }
+
+      &__info {
+        height: 108px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 15px;
+      }
+    }
+  }
+
+  .book-options {
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__condition {
+      width: 266px;
+      height: 40px;
+      font-family: 'Inter', 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 40px;
+      color: #0E0E0F;
+    }
+
+    &__dates {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__date-picker {
+      width: 130.5px;
+      height: 60px;
+      background: #FFFFFF;
+      border: 1px solid #EAEAEA;
+      border-radius: 8px;
+    }
+
+    &__reserve-button {
+      width: 266px;
+      height: 52px;
+      color: #FFFFFF;
+      background: #118834;
+      border-radius: 8px;
+    }
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: column;
+
+    &__option {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.input {
+  width: 400px;
+  background: #FFFFFF;
+  border: 1px solid #C4C8D0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  height: 54px;
+  padding: 10px;
+  max-width: 400px;
+  color: black;
+
+  &--disabled {
+    color: #696C71;
+    border: 0;
+    background: transparent;
+  }
+}
+
+.label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
